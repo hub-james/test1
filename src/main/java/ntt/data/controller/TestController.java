@@ -9,6 +9,7 @@ public class TestController {
 
     @GetMapping("/getHello")
     public String Test1(){
+        System.out.println("TestController.Test1");
         return "TestController.Test1";
     }
 
